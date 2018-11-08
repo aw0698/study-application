@@ -1,0 +1,72 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 24, 2018, 9:12:54 AM
+    Author     : Alicia
+*/
+*{
+    -fx-font-family: "Ebrima";
+}
+
+/*navigation bar*/
+#navBar {
+    -fx-background-color: #1b4356;
+    
+}
+#navBar .label{
+    -fx-text-fill: white;
+    -fx-font-size: 30;
+    -fx-font-weight: 700;
+    -fx-alignment:CENTER;
+    -fx-min-height: 50;
+}
+/*navigation bar categories and subjects*/
+.accordion .content {
+    -fx-background-color: transparent;
+    -fx-border-color:transparent;
+}
+.accordion .button{
+    -fx-font-size: 16;
+    
+    -fx-background-color: transparent;
+    -fx-alignment:CENTER_LEFT;
+    /*-fx-padding: 0 0 0 50;*/
+    -fx-text-fill: #7c8184;
+}
+.accordion .button:hover {
+    -fx-cursor: hand;
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+}
+.accordion .titled-pane {
+    -fx-background-color: transparent;
+    -fx-text-fill: #7c8184;
+}
+.accordion .titled-pane:expanded {
+    -fx-background-color: #0f2733;
+}
+.accordion .titled-pane:hover {
+    -fx-background-color:#0f2733;
+}
+.accordion .titled-pane .title{
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-background-color: transparent;
+    -fx-pref-height: 50;
+}
+.accordion .titled-pane .title .arrow-button .arrow{
+    -fx-background-color: white;
+}
+.accordion .titled-pane:collapsed .title .arrow-button .arrow {
+    -fx-padding: 0;
+}
+
+
+
+
+
+
+
